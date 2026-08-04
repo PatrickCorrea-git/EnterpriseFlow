@@ -4,13 +4,13 @@ import Sidebar from '../components/layout/Sidebar/Sidebar';
 
 function MainLayout() {
     return (
-        <div>
+        <div className="layout">
             <Sidebar />
 
-            <div>
+            <div className="content">
                 <Navbar />
 
-                <main>
+                <main className="main-content">
                     
                     <Outlet />
 
